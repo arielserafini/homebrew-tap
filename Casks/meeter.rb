@@ -13,8 +13,6 @@ cask "meeter" do
     strategy :github_latest
   end
 
-  depends_on macos: :ventura   # deployment target is macOS 13
-
   app "Meeter.app"
 
   # Meeter is self-signed, not notarized. Homebrew tags downloads with com.apple.quarantine
