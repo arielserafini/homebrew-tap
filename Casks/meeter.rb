@@ -1,6 +1,6 @@
 cask "meeter" do
-  version "1.5.2"
-  sha256 "f227bfad1e7898a091a60c59f328e87c313275487eb3325e38bd5e10d8b0bc4c"
+  version "1.6.0"
+  sha256 "c19d4f94399178429377ad402d5c350aeb8bbce1d8bf698bea18c4c5376b5186"
 
   url "https://github.com/arielserafini/homebrew-tap/releases/download/v#{version}/Meeter-#{version}.zip"
   name "Meeter"
